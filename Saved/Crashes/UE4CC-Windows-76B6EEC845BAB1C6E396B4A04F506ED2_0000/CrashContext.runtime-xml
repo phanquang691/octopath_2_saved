@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>748CC8324CA1935129BE21B2ECEAF738</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-76B6EEC845BAB1C6E396B4A04F506ED2_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000074</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>11140</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-Octopath_Traveler2</GameName>
+<ExecutableName>Octopath_Traveler2-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-0-Win64-Shipping</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-0+++UE4+Release-4.27</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-0</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<IsRequestingExit>true</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>D:/Games/OCTOPATH TRAVELER II/Octopath_Traveler2/Binaries/Win64/</BaseDir>
+<RootDir>D:/Games/OCTOPATH TRAVELER II/</RootDir>
+<MachineId>0412F7034CFE309626FBE1ABDA46F520</MachineId>
+<LoginId>0412f7034cfe309626fbe1abda46f520</LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName>GameState</GameStateName>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i3-1125G4 @ 2.00GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>21229461504</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>20</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33e1657         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33e0ac6         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33cee50         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 9943a6          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 986955          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 8725c9          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c411         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</PCallStack>
+<PCallStackHash>CD090E4852AC72AF83FB625D180E2CD75813D9BA</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9f3d4           
+ntdll                              0x00007ffd3b6b0000 + 55193           
+KERNELBASE                         0x00007ffd38a60000 + 44b2d           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 341f744         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33de8ce         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 974c0f          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 971fe3          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 13e2050         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 13dd3df         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 12fd993         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 13f5d05         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 809a77          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 80784c          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 8075f7          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 80a600          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 80ac76          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 80acca          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 80bf64          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 814ce4          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 3a2046e         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7056</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8424</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13540</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6048</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8292</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5652</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9656</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12168</ThreadID>
+<ThreadName>TaskGraphThreadHP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6532</ThreadID>
+<ThreadName>TaskGraphThreadHP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13352</ThreadID>
+<ThreadName>TaskGraphThreadHP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13132</ThreadID>
+<ThreadName>TaskGraphThreadHP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4128</ThreadID>
+<ThreadName>TaskGraphThreadHP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10548</ThreadID>
+<ThreadName>TaskGraphThreadHP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 124e4d0         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 3a3a74e         
+VCRUNTIME140                       0x00007ffd17d90000 + efc0            
+ntdll                              0x00007ffd3b6b0000 + a3dff           
+ntdll                              0x00007ffd3b6b0000 + 1e456           
+ntdll                              0x00007ffd3b6b0000 + a2dee           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33e1657         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33e0ac6         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 33cee50         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 9943a6          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 986955          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 8725c9          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c411         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>5080</ThreadID>
+<ThreadName>TaskGraphThreadBP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1536</ThreadID>
+<ThreadName>TaskGraphThreadBP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11928</ThreadID>
+<ThreadName>TaskGraphThreadBP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11296</ThreadID>
+<ThreadName>TaskGraphThreadBP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7892</ThreadID>
+<ThreadName>TaskGraphThreadBP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c3b1         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110e63c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4724</ThreadID>
+<ThreadName>TaskGraphThreadBP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2628</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10996</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10204</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3860</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1816</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6764</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5788</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1304</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9f3d4           
+ntdll                              0x00007ffd3b6b0000 + 55193           
+KERNELBASE                         0x00007ffd38a60000 + 44b2d           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 222bfe6         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6856</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 82ee06          
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4524</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 288ae3c         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13272</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4000</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4004</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2996</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 115ac9f         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12548</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 110c26b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 23eacb2         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 23ebd73         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9260</ThreadID>
+<ThreadName>RenderThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9f3d4           
+ntdll                              0x00007ffd3b6b0000 + 55193           
+KERNELBASE                         0x00007ffd38a60000 + 44b2d           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1260c5a         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 23ebe97         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10716</ThreadID>
+<ThreadName>RTHeartBeat 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 12e98ee         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 12cb2a7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 12c7050         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13524</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack></CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1492</ThreadID>
+<ThreadName></ThreadName>
+</Thread>
+<Thread><CallStack></CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7456</ThreadID>
+<ThreadName></ThreadName>
+</Thread>
+<Thread><CallStack></CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3536</ThreadID>
+<ThreadName></ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                              0x00007ffd3b6b0000 + 9edd4           
+KERNELBASE                         0x00007ffd38a60000 + 33f7e           
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 1261b3b         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 13daee2         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125fef7         
+Octopath_Traveler2-Win64-Shipping  0x00007ff68e120000 + 125a161         
+KERNEL32                           0x00007ffd39a90000 + 1257d           
+ntdll                              0x00007ffd3b6b0000 + 5aa68           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3736</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>Intel(R) UHD Graphics</RHI.AdapterName>
+<RHI.UserDriverVersion>31.0.101.4146</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.101.4146</RHI.InternalDriverVersion>
+<RHI.DriverDate>2-22-2023</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<DeviceProfile.Name>WindowsNoEditor</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
